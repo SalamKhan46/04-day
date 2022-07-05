@@ -11,8 +11,15 @@ p{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 h3{
     font-size: 25px;
+}
+h4{
+    font-size: 20px;
+    color: #ef4fef;
 }
 .clr{
     color: #ef4fef;
@@ -56,4 +63,31 @@ h3{
 }
 .dream-photo img{
     width: 100%;
+}
+
+
+.experience{
+    /* border: 1px solid; */
+    background-image: url(photo/4.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px;
+    margin-bottom: 50px;
+}
+.expe-item{
+    justify-content: space-evenly;
+}
+.comman-exp{
+    width: 40%;
+    /* margin-left: 5%; */
+    padding: 10px;
+    background: #fff5;
+    box-shadow: 10px 10px 35px #888;
+    border-radius: 15px;
+}
+.full-stak{
+    border-left: 7px solid #ef4fef;
+}
+.baby{
+    border-left:7px solid #4fefef;
 }
